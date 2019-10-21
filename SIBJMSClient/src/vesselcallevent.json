@@ -1,0 +1,229 @@
+{
+  "protocolVersion" : "1.0",
+  "header" : {
+    "timestamp" : "2019-09-04 17:50:51",
+    "messageDefinition" : {
+      "action" : "Updated",
+      "messageType" : "VesselCall Event",
+      "messageVersion" : "v1.0"
+    },
+    "source" : {
+      "sender" : "OPS",
+      "system" : "New TOS"
+    },
+    "target" : {
+      "recipient" : "*",
+      "system" : "*"
+    }
+  },
+  "body" : {
+    "businessEvent" : {
+      "beforeImage" : {
+        "vesselCall" : {
+          "changedByUser" : "YNG_Y",
+          "changedDate" : "2019-09-03 15:21:12",
+          "createdByUser" : "WSADMIN",
+          "creationDate" : "2017-09-19 15:41:07",
+          "id" : 50502,
+          "status" : "ACT",
+          "terminal" : "BMCT",
+          "eta" : "2019-01-08 07:00:00",
+          "ata" : "2017-09-19 15:42:09",
+          "vesselAppointment" : {
+            "changedByUser" : "YNG_Y",
+            "changedDate" : "2019-09-04 17:50:40",
+            "id" : 50500,
+            "recordVersion" : 175,
+            "status" : "ACT",
+            "carrierOperator" : "ACL",
+            "orderPortCheck" : true,
+            "showExternal" : true,
+            "terminal" : "BMCT",
+            "voyageInCode" : "1234",
+            "voyageOutCode" : "5678",
+            "serviceIn" : "AE1",
+            "serviceOut" : "AE1",
+            "etaDt" : "2019-01-08 07:00:00",
+            "ataDt" : "2017-09-19 15:42:09",
+            "cutiLoadStartDt" : "2019-09-04 15:28:00",
+            "plannedGateZoneIn" : "K1742",
+            "plannedGateZoneOut" : "K1742",
+            "registryNumber" : "112233",
+            "vessel" : "DBV1",
+            "vesselDescription" : "test",
+            "voyageOut" : {
+              "code" : "5678",
+              "direction" : "O",
+              "service" : "AE1"
+            },
+            "voyageIn" : {
+              "code" : "1234",
+              "direction" : "I",
+              "service" : "AE1"
+            },
+            "vesselCall" : {
+              "changedByUser" : "YNG_Y",
+              "changedDate" : "2019-09-03 15:21:12",
+              "createdByUser" : "WSADMIN",
+              "creationDate" : "2017-09-19 15:41:07",
+              "id" : 50502,
+              "status" : "ACT",
+              "terminal" : "BMCT",
+              "eta" : "2019-01-08 07:00:00",
+              "ata" : "2017-09-19 15:42:09",
+              "arrivalDraftAft" : {
+                "value" : 0.00,
+                "unit" : "mm"
+              },
+              "arrivalDraftFore" : {
+                "value" : 0.00,
+                "unit" : "mm"
+              },
+              "departureDraftAft" : {
+                "value" : 0.00,
+                "unit" : "mm"
+              },
+              "departureDraftFore" : {
+                "value" : 0.00,
+                "unit" : "mm"
+              },
+              "vessel" : "DBV1"
+            },
+            "trfol" : true,
+            "coastalIndicationIn" : true,
+            "coastalIndicationOut" : true,
+            "registerDfeI" : false
+          },
+          "voyageIn" : {
+            "code" : "1234",
+            "service" : "AE1"
+          },
+          "voyageOut" : {
+            "code" : "5678",
+            "service" : "AE1"
+          },
+          "arrivalDraftAft" : {
+            "value" : 0.00,
+            "unit" : "mm"
+          },
+          "arrivalDraftFore" : {
+            "value" : 0.00,
+            "unit" : "mm"
+          },
+          "departureDraftAft" : {
+            "value" : 0.00,
+            "unit" : "mm"
+          },
+          "departureDraftFore" : {
+            "value" : 0.00,
+            "unit" : "mm"
+          },
+          "vessel" : "DBV1"
+        }
+      },
+      "afterImage" : {
+        "vesselCall" : {
+          "changedByUser" : "YNG_Y",
+          "changedDate" : "2019-09-03 15:21:12",
+          "createdByUser" : "WSADMIN",
+          "creationDate" : "2017-09-19 15:41:07",
+          "id" : 50502,
+          "status" : "ACT",
+          "terminal" : "BMCT",
+          "eta" : "2019-01-08 07:00:00",
+          "ata" : "2017-09-19 15:42:09",
+          "vesselAppointment" : {
+            "changedByUser" : "YNG_Y",
+            "changedDate" : "2019-09-04 17:50:40",
+            "id" : 50500,
+            "recordVersion" : 175,
+            "status" : "ACT",
+            "carrierOperator" : "ACL",
+            "orderPortCheck" : true,
+            "showExternal" : true,
+            "terminal" : "BMCT",
+            "voyageInCode" : "1234",
+            "voyageOutCode" : "5678",
+            "serviceIn" : "AE1",
+            "serviceOut" : "AE1",
+            "etaDt" : "2019-01-08 07:00:00",
+            "ataDt" : "2017-09-19 15:42:09",
+            "cutiLoadStartDt" : "2019-09-04 15:28:00",
+            "plannedGateZoneIn" : "K1742",
+            "plannedGateZoneOut" : "K1742",
+            "registryNumber" : "112233",
+            "vessel" : "DBV1",
+            "vesselDescription" : "test",
+            "voyageOut" : {
+              "code" : "5678",
+              "direction" : "O",
+              "service" : "AE1"
+            },
+            "voyageIn" : {
+              "code" : "1234",
+              "direction" : "I",
+              "service" : "AE1"
+            },
+            "vesselCall" : {
+              "changedByUser" : "YNG_Y",
+              "changedDate" : "2019-09-03 15:21:12",
+              "createdByUser" : "WSADMIN",
+              "creationDate" : "2017-09-19 15:41:07",
+              "id" : 50502,
+              "status" : "ACT",
+              "terminal" : "BMCT",
+              "eta" : "2019-01-08 07:00:00",
+              "ata" : "2017-09-19 15:42:09",
+              "arrivalDraftAft" : {
+                "value" : 0.00,
+                "unit" : "mm"
+              },
+              "arrivalDraftFore" : {
+                "value" : 0.00,
+                "unit" : "mm"
+              },
+              "departureDraftAft" : {
+                "value" : 0.00,
+                "unit" : "mm"
+              },
+              "departureDraftFore" : {
+                "value" : 0.00,
+                "unit" : "mm"
+              },
+              "vessel" : "DBV1"
+            },
+            "trfol" : true,
+            "coastalIndicationIn" : true,
+            "coastalIndicationOut" : true,
+            "registerDfeI" : false
+          },
+          "voyageIn" : {
+            "code" : "1234",
+            "service" : "AE1"
+          },
+          "voyageOut" : {
+            "code" : "5678",
+            "service" : "AE1"
+          },
+          "arrivalDraftAft" : {
+            "value" : 0.00,
+            "unit" : "mm"
+          },
+          "arrivalDraftFore" : {
+            "value" : 0.00,
+            "unit" : "mm"
+          },
+          "departureDraftAft" : {
+            "value" : 0.00,
+            "unit" : "mm"
+          },
+          "departureDraftFore" : {
+            "value" : 0.00,
+            "unit" : "mm"
+          },
+          "vessel" : "DBV1"
+        }
+      }
+    }
+  }
+}

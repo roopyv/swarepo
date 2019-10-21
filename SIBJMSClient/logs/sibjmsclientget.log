@@ -1,0 +1,318 @@
+[INFO ] 2019-10-21 10:20:40.114 [Asynchronous Consumer-1] get - Received Message From Queue: jms/S360Queue
+[INFO ] 2019-10-21 10:20:40.122 [Asynchronous Consumer-1] get - Message Content: 
+ {
+  "statusCode" : 200,
+  "errorCode" : "",
+  "errorDescription" : "",
+  "data" : [
+  {
+   "changedByUser": "DCRMR_S",
+            "changedDate": "2019-08-14 08:59:08",
+            "createdByUser": "SRV-GTOS-CSR",
+            "creationDate": "2019-08-14 08:59:08",
+            "id": "165742600",
+            "status": "EXE",
+            "aCheckOk": "true",
+            "agent": "ONE",
+            "demandReference": "DDOQ2028E",
+            "demandType": "ORD",
+            "documentsAvailable": "false",
+            "executionApproved": "true",
+            "executionDateTime": "2019-08-14 08:59:08",
+            "handlingDateTime": "2019-08-14 08:59:08",
+            "latestACheckDateTime": "2019-08-14 08:59:08",
+            "latestExecutionApprovalDateTime": "2019-08-14 08:59:08",
+            "latestLinkDateTime": "2019-08-14 08:59:08",
+            "line": "ONE",
+            "pool": "ONE",
+            "linkOk": "true",
+            "loadPosition": "341318",
+            "loadStatus": "F",
+            "operationType": "VS",
+            "orderId": "27920452",
+            "orderMismatch": "false",
+            "orderType": "LDO",
+            "outDemandId": "150362669",
+            "pCheckOk": "false",
+            "retrievedBestUnit": "false",
+            "terminal": "K913",
+            "thirdMoveIndication": "false",
+            "type_": "SPC",
+			"subType" : "RTM",
+            "unitDemand": {
+              "actAsReleaseInstruction": "false",
+              "carrierOperator": "HPL",
+              "referenceInOrder": "LEHV26932600",
+              "residue": "false",
+              "transhipmentIndicator": "false",
+              "reefer": {
+                "coldTreatment": "false",
+                "controlledAtmosphere": "false",
+                "operationalReefer": "false"
+              },
+            "unitCharacteristics": {
+                "checkDigitError": "false",
+                "cscPlatePresent": "false",
+                "iso": "42G1",
+                "unitClass": "CN",
+                "unitHeight": {
+                  "value": "8.6",
+                  "unit": "ft"
+                },
+                "unitId": "DFSU4137422",
+                "unitLength": {
+                  "value": "40",
+                  "unit": "ft"
+                },
+                "unitTareWeight": {
+                  "value": "3600.00",
+                  "unit": "kg"
+                },
+                "unitType": "DV",
+                "unitWidth": {
+                  "value": "8",
+                  "unit": "ft"
+                }
+              },
+              "unitState": {
+                "unitGrossWeight": {
+                  "value": "23999.78",
+                  "unit": "kg"
+                }
+              }
+            },
+            "unitVisit": {
+              "status": "EXE",
+              "coastalIndication": "F",
+              "customsAuthorization": "false",
+              "fromDateTime": "2019-08-14 08:59:08",
+              "importExportIndication": "E",
+              "line": "ONE",
+              "loadStatus": "F",
+              "overlandedIndication": "false",
+              "pool": "ONE",
+              "reeferConnected": "false",
+              "requiresInspection": "false",
+              "requiresRepair": "false",
+              "reservedIndication": "false",
+              "terminal": "K913",
+              "untilDateTime": "2019-08-14 08:59:08",
+             }
+     }
+	}
+  ]
+}
+
+[INFO ] 2019-10-21 10:20:40.124 [Asynchronous Consumer-1] get - Message Count 1
+[INFO ] 2019-10-21 10:23:59.395 [Asynchronous Consumer-1] getLogger - Received Message From Queue: jms/S360Queue
+[INFO ] 2019-10-21 10:23:59.400 [Asynchronous Consumer-1] getLogger - Message Content: 
+ {
+  "statusCode" : 200,
+  "errorCode" : "",
+  "errorDescription" : "",
+  "data" : [
+  {
+   "changedByUser": "DCRMR_S",
+            "changedDate": "2019-08-14 08:59:08",
+            "createdByUser": "SRV-GTOS-CSR",
+            "creationDate": "2019-08-14 08:59:08",
+            "id": "165742600",
+            "status": "EXE",
+            "aCheckOk": "true",
+            "agent": "ONE",
+            "demandReference": "DDOQ2028E",
+            "demandType": "ORD",
+            "documentsAvailable": "false",
+            "executionApproved": "true",
+            "executionDateTime": "2019-08-14 08:59:08",
+            "handlingDateTime": "2019-08-14 08:59:08",
+            "latestACheckDateTime": "2019-08-14 08:59:08",
+            "latestExecutionApprovalDateTime": "2019-08-14 08:59:08",
+            "latestLinkDateTime": "2019-08-14 08:59:08",
+            "line": "ONE",
+            "pool": "ONE",
+            "linkOk": "true",
+            "loadPosition": "341318",
+            "loadStatus": "F",
+            "operationType": "VS",
+            "orderId": "27920452",
+            "orderMismatch": "false",
+            "orderType": "LDO",
+            "outDemandId": "150362669",
+            "pCheckOk": "false",
+            "retrievedBestUnit": "false",
+            "terminal": "K913",
+            "thirdMoveIndication": "false",
+            "type_": "SPC",
+			"subType" : "RTM",
+            "unitDemand": {
+              "actAsReleaseInstruction": "false",
+              "carrierOperator": "HPL",
+              "referenceInOrder": "LEHV26932600",
+              "residue": "false",
+              "transhipmentIndicator": "false",
+              "reefer": {
+                "coldTreatment": "false",
+                "controlledAtmosphere": "false",
+                "operationalReefer": "false"
+              },
+            "unitCharacteristics": {
+                "checkDigitError": "false",
+                "cscPlatePresent": "false",
+                "iso": "42G1",
+                "unitClass": "CN",
+                "unitHeight": {
+                  "value": "8.6",
+                  "unit": "ft"
+                },
+                "unitId": "DFSU4137422",
+                "unitLength": {
+                  "value": "40",
+                  "unit": "ft"
+                },
+                "unitTareWeight": {
+                  "value": "3600.00",
+                  "unit": "kg"
+                },
+                "unitType": "DV",
+                "unitWidth": {
+                  "value": "8",
+                  "unit": "ft"
+                }
+              },
+              "unitState": {
+                "unitGrossWeight": {
+                  "value": "23999.78",
+                  "unit": "kg"
+                }
+              }
+            },
+            "unitVisit": {
+              "status": "EXE",
+              "coastalIndication": "F",
+              "customsAuthorization": "false",
+              "fromDateTime": "2019-08-14 08:59:08",
+              "importExportIndication": "E",
+              "line": "ONE",
+              "loadStatus": "F",
+              "overlandedIndication": "false",
+              "pool": "ONE",
+              "reeferConnected": "false",
+              "requiresInspection": "false",
+              "requiresRepair": "false",
+              "reservedIndication": "false",
+              "terminal": "K913",
+              "untilDateTime": "2019-08-14 08:59:08",
+             }
+     }
+	}
+  ]
+}
+
+[INFO ] 2019-10-21 10:23:59.405 [Asynchronous Consumer-1] getLogger - Message Count 1
+[INFO ] 2019-10-21 10:24:42.640 [Asynchronous Consumer-1] getLogger - Received Message From Queue: jms/S360Queue
+[INFO ] 2019-10-21 10:24:42.645 [Asynchronous Consumer-1] getLogger - Message Content: 
+ {
+  "statusCode" : 200,
+  "errorCode" : "",
+  "errorDescription" : "",
+  "data" : [
+  {
+   "changedByUser": "DCRMR_S",
+            "changedDate": "2019-08-14 08:59:08",
+            "createdByUser": "SRV-GTOS-CSR",
+            "creationDate": "2019-08-14 08:59:08",
+            "id": "165742600",
+            "status": "EXE",
+            "aCheckOk": "true",
+            "agent": "ONE",
+            "demandReference": "DDOQ2028E",
+            "demandType": "ORD",
+            "documentsAvailable": "false",
+            "executionApproved": "true",
+            "executionDateTime": "2019-08-14 08:59:08",
+            "handlingDateTime": "2019-08-14 08:59:08",
+            "latestACheckDateTime": "2019-08-14 08:59:08",
+            "latestExecutionApprovalDateTime": "2019-08-14 08:59:08",
+            "latestLinkDateTime": "2019-08-14 08:59:08",
+            "line": "ONE",
+            "pool": "ONE",
+            "linkOk": "true",
+            "loadPosition": "341318",
+            "loadStatus": "F",
+            "operationType": "VS",
+            "orderId": "27920452",
+            "orderMismatch": "false",
+            "orderType": "LDO",
+            "outDemandId": "150362669",
+            "pCheckOk": "false",
+            "retrievedBestUnit": "false",
+            "terminal": "K913",
+            "thirdMoveIndication": "false",
+            "type_": "SPC",
+			"subType" : "RTM",
+            "unitDemand": {
+              "actAsReleaseInstruction": "false",
+              "carrierOperator": "HPL",
+              "referenceInOrder": "LEHV26932600",
+              "residue": "false",
+              "transhipmentIndicator": "false",
+              "reefer": {
+                "coldTreatment": "false",
+                "controlledAtmosphere": "false",
+                "operationalReefer": "false"
+              },
+            "unitCharacteristics": {
+                "checkDigitError": "false",
+                "cscPlatePresent": "false",
+                "iso": "42G1",
+                "unitClass": "CN",
+                "unitHeight": {
+                  "value": "8.6",
+                  "unit": "ft"
+                },
+                "unitId": "DFSU4137422",
+                "unitLength": {
+                  "value": "40",
+                  "unit": "ft"
+                },
+                "unitTareWeight": {
+                  "value": "3600.00",
+                  "unit": "kg"
+                },
+                "unitType": "DV",
+                "unitWidth": {
+                  "value": "8",
+                  "unit": "ft"
+                }
+              },
+              "unitState": {
+                "unitGrossWeight": {
+                  "value": "23999.78",
+                  "unit": "kg"
+                }
+              }
+            },
+            "unitVisit": {
+              "status": "EXE",
+              "coastalIndication": "F",
+              "customsAuthorization": "false",
+              "fromDateTime": "2019-08-14 08:59:08",
+              "importExportIndication": "E",
+              "line": "ONE",
+              "loadStatus": "F",
+              "overlandedIndication": "false",
+              "pool": "ONE",
+              "reeferConnected": "false",
+              "requiresInspection": "false",
+              "requiresRepair": "false",
+              "reservedIndication": "false",
+              "terminal": "K913",
+              "untilDateTime": "2019-08-14 08:59:08",
+             }
+     }
+	}
+  ]
+}
+
+[INFO ] 2019-10-21 10:24:42.646 [Asynchronous Consumer-1] getLogger - Message Count 2
